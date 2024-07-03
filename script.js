@@ -1,15 +1,15 @@
 //Create variables to reference and store canvas 
 let canvas = document.getElementById('mycanvas');
 let ctx = canvas.getContext('2d');
-let ballRadius = 10;
+let ballRadius = 8;
 let x = canvas.width / 2;
-let y = canvas.height - 30;
+let y = canvas.height - 20;
 let dx = 2;
 let dy = -2;
 
 //create the paddle
-let paddleHeight = 12;
-let paddleWidth = 72;
+let paddleHeight = 20;
+let paddleWidth = 50;
 
 //specify starting point of paddle
 let paddleX = (canvas.width - paddleWidth) / 2;
@@ -19,13 +19,13 @@ let rightPressed = false;
 let leftPressed = false;
 
 //holding variables for bricks
-let brickRowCount = 4;
-let brickColumnCount = 7;
-let brickWidth = 72;
-let brickHeight = 24;
-let brickPadding = 12;
-let brickOffsetTop = 32;
-let brickOffsetLeft = 32;
+let brickRowCount = 3;
+let brickColumnCount = 15;
+let brickWidth = 45;
+let brickHeight = 12;
+let brickPadding = 6;
+let brickOffsetTop = 16;
+let brickOffsetLeft = 16;
 //Create variables to take score
 let score = 0;
 
