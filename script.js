@@ -19,7 +19,7 @@ let rightPressed = false;
 let leftPressed = false;
 
 //holding variables for bricks
-let brickRowCount = 3;
+let brickRowCount = 25;
 let brickColumnCount = 25;
 let brickWidth = 45;
 let brickHeight = 12;
